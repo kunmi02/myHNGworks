@@ -1,0 +1,38 @@
+ body,html{
+ 	/**background: "banner.jpg";**/
+ 	height: 100%;
+ 	color: green;
+ }
+ .bg{
+ 	background-image: url("banner.jpg");
+ 	height: 100%;
+ 	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ nav{
+ 	position: relative;
+ 	top: 20px;
+ 	margin-bottom: 50px;
+ }
+ .midtext{
+        /**background: black;
+        color: white;
+        border-radius: 1em;**/
+        padding: 1em;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%) 
+    }
+
+
+   #foot{
+   	
+    position:relative;
+    bottom:0;
+    right:0;
+    
+   }
